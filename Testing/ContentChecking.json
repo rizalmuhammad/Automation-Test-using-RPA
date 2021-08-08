@@ -1,0 +1,131 @@
+{
+  "Name": "RWU Content",
+  "CreationDate": "2021-8-8",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://waste4change.com/recycle-with-us",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeTitle",
+      "Target": "Recycle With Us | Waste4Change",
+      "Value": "pageTitle",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Tentang",
+      "Value": "sectionAbout",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Keuntungan",
+      "Value": "sectionBenefit",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Program Daur Ulang",
+      "Value": "sectionProgram",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "FAQ",
+      "Value": "sectionFAQ",
+      "Description": ""
+    },
+    {
+      "Command": "assertTitle",
+      "Target": "${pageTitle}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=/html/body/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/section",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "linkText=Tentang@POS=8",
+      "Value": "${sectionAbout}",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "linkText=Keuntungan",
+      "Value": "${sectionBenefit}",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "linkText=Program Daur Ulang",
+      "Value": "${sectionProgram}",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "linkText=FAQ",
+      "Value": "${sectionFAQ}",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "linkText=Redeem Poin",
+      "Value": "",
+      "Targets": [
+        "linkText=Redeem Poin",
+        "xpath=/html/body/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/section/div/div/div[2]/div/div/div/div/div/a",
+        "xpath=//section[3]/div/div/div/div/div/div/div/div/div/div/div/section/div/div/div[2]/div/div/div/div/div/a",
+        "css=body > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-b8a5406.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default.elementor-sticky > div > div > div > div > div > div > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-4af2407 > div > div > div.elementor-element.elementor-element-559b038.elementor-button-info.elementor-align-right.elementor-hidden-tablet.elementor-hidden-phone.elementor-widget.elementor-widget-button > div > div > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "linkText=Setor Sekarang",
+      "Value": "",
+      "Targets": [
+        "linkText=Setor Sekarang",
+        "xpath=/html/body/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/section/div/div/div[3]/div/div/div/div/div/a",
+        "xpath=//section[3]/div/div/div/div/div/div/div/div/div/div/div/section/div/div/div[3]/div/div/div/div/div/a",
+        "css=body > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-b8a5406.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default.elementor-sticky > div > div > div > div > div > div > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-b0240a3 > div > div > div.elementor-element.elementor-element-d4884c3.elementor-button-info.elementor-align-right.elementor-hidden-tablet.elementor-hidden-phone.elementor-widget.elementor-widget-button > div > div > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "xpath=/html/body/div/div/div/section[4]/div/div/div/div/div/div/div/h1",
+      "Value": "Mengapa Pilah Sampah ?",
+      "Description": ""
+    },
+    {
+      "Command": "verifyText",
+      "Target": "xpath=/html/body/div/div/div/section[4]/div/div/div/div/div/div[3]/div/h1",
+      "Value": "Tahukah Anda? 20% dari sampah kita masih bisa didaur ulang. Tapi karena masih tercampur, sampah tersebut menjadi sulit diproses dan berakhir di TPA. Yuk mulai pilah sampah dan daur ulang bersama Waste4Change. Nikmati berbagai kemudahan dan keuntungan.",
+      "Targets": [
+        "xpath=/html/body/div/div/div/section[4]/div/div/div/div/div/div[3]/div/h1",
+        "xpath=//div[3]/div/h1",
+        "css=body > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8c19389.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-fa96536 > div > div > div.elementor-element.elementor-element-81b55ac.elementor-widget.elementor-widget-heading > div > h1"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "linkText=Pelajari Lebih Lanjut",
+      "Value": "",
+      "Targets": [
+        "linkText=Pelajari Lebih Lanjut",
+        "xpath=/html/body/div/div/div/section[4]/div/div/div/div/div/div[4]/div/div/a",
+        "xpath=//div[4]/div/div/a",
+        "css=body > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8c19389.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-fa96536 > div > div > div.elementor-element.elementor-element-67f4b80.elementor-button-info.elementor-align-left.elementor-mobile-align-center.elementor-widget.elementor-widget-button > div > div > a"
+      ],
+      "Description": ""
+    }
+  ]
+}
